@@ -62,3 +62,4 @@ with(unique(activity.imp[,3:5]),
      xyplot(persdaysmeans ~ as.numeric(interval) | days,type='l',
             layout = c(1,2),xlab = 'Interval', ylab = 'Number of Steps'))
 
+
